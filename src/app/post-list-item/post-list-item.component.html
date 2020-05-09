@@ -9,8 +9,9 @@
 <p>{{post.content}}</p>
 </div>
 <div class="row">
-  <button class="btn btn-success" (click)="onAugmente()">Love it !</button>
-  <button class="btn btn-danger" (click)="onDiminue()">Don't love it!</button>
+  <button class="btn btn-success" (click)="onAugmente(index)">Love it !</button>
+  <button class="btn btn-danger" (click)="onDiminue(index)">Don't love it!</button>
+  <button class="btn btn-danger" (click)="onDelete(index)">Supprimer</button>
 </div>
 
 </div>
